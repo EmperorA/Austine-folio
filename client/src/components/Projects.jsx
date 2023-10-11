@@ -112,7 +112,11 @@ export default function Projects() {
         </CardContent>
         <CardActions>
           <Button size="small">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://my-folio-edc2fdc58205.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Demo
             </a>
           </Button>
