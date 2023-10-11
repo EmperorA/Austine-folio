@@ -71,7 +71,7 @@ export default function Header() {
                   <Link
                     key={page}
                     to={page === "Home" ? "/" : `/${page.toLowerCase()}`}
-                    style={{ textDecoration: "none", color: "inherit" }}
+                    style={{ textDecoration: "none", color: "black" }}
                   >
                     <Typography textAlign="center">{page}</Typography>
                   </Link>
@@ -90,7 +90,7 @@ export default function Header() {
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
+                  sx={{ my: 2, color: "black", display: "block" }}
                 >
                   {page}
                 </Button>
