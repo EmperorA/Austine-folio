@@ -9,8 +9,6 @@ import {
 } from "@mui/material";
 import axios from "axios";
 
-const serverURL = process.env.REACT_APP_SERVER_URL;
-
 export default function Contact() {
   const [status, setStatus] = useState("");
   const formRef = useRef(null);
@@ -20,7 +18,7 @@ export default function Contact() {
     const { name, email, message } = e.target.elements;
 
     try {
-      await axios.post(`${serverURL}/send-email`, {
+      await axios.post("http://localhost:3001/send-email", {
         name: name.value,
         email: email.value,
         message: message.value,

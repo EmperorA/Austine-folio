@@ -19,7 +19,7 @@ export default function Footer() {
     <footer style={footerStyle}>
       <p>MYFOLIO © {currentYear} | Designed by Austine</p>
       <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-        <Link to="https://www.linkedin.com/in/austine-uwumwonse-7481aa12a/">
+        <Link to="https://www.linkedin.com/in/austineuwumwonse/">
           <LinkedInIcon />
         </Link>
         <Link to="https://github.com/EmperorA">
