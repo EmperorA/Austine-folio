@@ -162,7 +162,11 @@ export default function Content() {
             </Typography>
             <CardActions>
               <Button size="small" color="primary">
-                <a href="/home" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://austine-weather-app-5508316fbac8.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Demo
                 </a>
               </Button>
@@ -194,7 +198,7 @@ export default function Content() {
             <CardActions>
               <Button size="small" color="primary">
                 <a
-                  href="https://austine-weather-app-5508316fbac8.herokuapp.com/"
+                  href="https://my-folio-edc2fdc58205.herokuapp.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
