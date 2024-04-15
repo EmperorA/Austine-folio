@@ -197,13 +197,7 @@ export default function Content() {
             </Typography>
             <CardActions>
               <Button size="small" color="primary">
-                <a
-                  href="https://my-folio-edc2fdc58205.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Demo
-                </a>
+                <Link to="/">Demo</Link>
               </Button>
             </CardActions>
           </CardContent>
