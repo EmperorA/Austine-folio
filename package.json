@@ -18,7 +18,7 @@
     "url": "https://github.com/EmperorA/Austine-folio/issues"
   },
   "homepage": "https://github.com/EmperorA/Austine-folio#readme",
-  "Dependencies": {
+  "dependencies": {
     "concurrently": "^8.2.2"
   }
 }
