@@ -18,7 +18,7 @@ export default function Contact() {
     const { name, email, message } = e.target.elements;
 
     try {
-      await axios.post("http://localhost:3001/send-email", {
+      await axios.post("https://austine-folio.onrender.com/send-email", {
         name: name.value,
         email: email.value,
         message: message.value,
