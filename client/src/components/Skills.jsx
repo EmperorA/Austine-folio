@@ -7,7 +7,12 @@ export default function Skills() {
     { name: "HTML", icon: "html.png" },
     { name: "CSS", icon: "css-3.png" },
     { name: "REACT JS", icon: "react.png" },
+    { name: "TYPESCRIPT", icon: "github.png" },
     { name: "NODE.JS", icon: "nodejs.png" },
+    { name: "MONGODB", icon: "react.png" },
+    { name: "POSTGRESQL", icon: "nodejs.png" },
+    { name: "DOCKER", icon: "docker.png" },
+    { name: "KUBERNETES", icon: "css-3.png" },
     { name: "GITHUB", icon: "github.png" },
   ];
 
