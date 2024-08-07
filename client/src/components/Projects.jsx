@@ -31,7 +31,7 @@ export default function Projects() {
         <CardMedia
           component="img"
           height="350"
-          src="img/landing-pet-adoption-demo-app.png"
+          src="img/landing-pet-adoption-demo-app.vercel.app.png"
           sx={{
             borderRadius: "12px",
             objectFit: "fill",

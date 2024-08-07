@@ -102,8 +102,42 @@ export default function Content() {
             paddingBottom: "16px",
           }}
         >
-          MY WORKS
+          SOME OF MY PROJECTS
         </Typography>
+        <Card sx={{ maxWidth: 500 }}>
+          <CardMedia
+            component="img"
+            height="350"
+            src="img/landing-pet-adoption-demo-app.vercel.app.png"
+            sx={{
+              borderRadius: "5px",
+              objectFit: "fill",
+              objectPosition: "center",
+            }}
+          />
+          <CardContent
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "baseline",
+            }}
+          >
+            <Typography variant="h5" component="div">
+              Pet Adoption App
+            </Typography>
+            <CardActions>
+              <Button size="small" color="primary">
+                <a
+                  href="https://pet-adoption-demo-app.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Demo
+                </a>
+              </Button>
+            </CardActions>
+          </CardContent>
+        </Card>
         <Card sx={{ maxWidth: 500 }}>
           <CardMedia
             component="img"
@@ -169,35 +203,6 @@ export default function Content() {
                 >
                   Demo
                 </a>
-              </Button>
-            </CardActions>
-          </CardContent>
-        </Card>
-        <br />
-        <Card sx={{ maxWidth: 500 }}>
-          <CardMedia
-            component="img"
-            height="350"
-            src="img/my-folio.png"
-            sx={{
-              borderRadius: "5px",
-              objectFit: "fill",
-              objectPosition: "center",
-            }}
-          />
-          <CardContent
-            sx={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "baseline",
-            }}
-          >
-            <Typography variant="h5" component="div">
-              My PortFolio Web App
-            </Typography>
-            <CardActions>
-              <Button size="small" color="primary">
-                <Link to="/">Demo</Link>
               </Button>
             </CardActions>
           </CardContent>
