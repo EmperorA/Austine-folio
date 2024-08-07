@@ -31,6 +31,47 @@ export default function Projects() {
         <CardMedia
           component="img"
           height="350"
+          src="img/landing-pet-adoption-demo-app.png"
+          sx={{
+            borderRadius: "12px",
+            objectFit: "fill",
+            objectPosition: "center",
+          }}
+        />
+        <CardContent>
+          <Typography variant="h5" component="div">
+            Pet Adoption App
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            REACT, VITE, TYPESCRIPT, NODEJS, POSTgreSQL
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small" color="primary">
+            <a
+              href="https://pet-adoption-demo-app.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Demo
+            </a>
+          </Button>
+          <Button size="small" color="primary">
+            <a
+              href="https://github.com/EmperorA/Pet_Adoption_Demo_App"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repo
+            </a>
+          </Button>
+        </CardActions>
+      </Card>{" "}
+      <br />
+      <Card sx={{ maxWidth: 750, maxHeight: 500 }}>
+        <CardMedia
+          component="img"
+          height="350"
           src="img/Screenshot (5).png"
           sx={{
             borderRadius: "12px",
@@ -54,6 +95,15 @@ export default function Projects() {
               rel="noopener noreferrer"
             >
               Demo
+            </a>
+          </Button>
+          <Button size="small" color="primary">
+            <a
+              href="https://github.com/EmperorA/myproject"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repo
             </a>
           </Button>
         </CardActions>
@@ -88,32 +138,13 @@ export default function Projects() {
               Demo
             </a>
           </Button>
-        </CardActions>
-      </Card>
-      <br />
-      <Card sx={{ maxWidth: 750, maxHeight: 500 }}>
-        <CardMedia
-          component="img"
-          height="350"
-          src="img/my-folio.png"
-          sx={{
-            borderRadius: "12px",
-            objectFit: "fill",
-            objectPosition: "center",
-          }}
-        />
-        <CardContent>
-          <Typography variant="h5" component="div">
-            My PortFolio web App
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            HTML, CSS, MUI, REACT JS, NODEJS,
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small">
-            <a href="/home" target="_blank" rel="noopener noreferrer">
-              Demo
+          <Button size="small" color="primary">
+            <a
+              href="https://github.com/EmperorA/realtime-weather-API"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Repo
             </a>
           </Button>
         </CardActions>
