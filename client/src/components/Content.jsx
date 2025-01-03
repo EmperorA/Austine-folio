@@ -55,7 +55,7 @@ export default function Content() {
           }}
         >
           Hello, My name is Austine Uwumwonse. I am a full stack Web Developer
-          based in Bremen, Germany. I have always been captivated by the art of
+          based in San Antonio, TX. I have always been captivated by the art of
           creation-whether tangible or digital.
         </Typography>
       </div>

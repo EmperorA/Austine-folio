@@ -38,7 +38,7 @@ export default function About() {
               }}
             >
               Hello, my name is Austine, and I am a Full Stack Web Developer
-              based in Bremen, Germany.
+              based in San Antonio TX.
               <br />
               I have always been captivated by the art of creation—whether
               tangible or digital. The ability to build something functional and
@@ -52,8 +52,8 @@ export default function About() {
           </CardContent>
           <CardMedia
             component="img"
-            height="600"
-            image="/img/myPhoto.jpg"
+            height="700"
+            image="/img/profile.jpg"
             alt="profile"
             sx={{ borderRadius: "12px" }}
           />

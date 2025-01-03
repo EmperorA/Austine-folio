@@ -27,7 +27,7 @@ If you like my work, feel free to star this repository. It helps.
 
 **CREATE A BUG REPORT**
 
-If you see an error message or run into an issue, please dont hesitate to contact me blinkaustine@gmail.com
+If you see an error message or run into an issue, please dont hesitate to contact me austineuwumwonse@gmail.com
 
 **CONTRIBUTING**
 
